@@ -10,38 +10,6 @@
 
 https://frontend-cadastro-usuarios.vercel.app/
 
-## ⚛️ FRONTEND
-
-Frontend hospedado utilizando:
-
-* Vercel
-
-### FUNCIONALIDADES DO DEPLOY
-
-✔️ Deploy automático via GitHub
-
-✔️ Atualização automática a cada push
-
-✔️ Hospedagem da aplicação React
-
-✔️ Ambiente otimizado para frontend
-
-## ⚙️ BACKEND
-
-Backend hospedado utilizando:
-
-* Render
-
-### FUNCIONALIDADES DO DEPLOY
-
-✔️ Deploy automático da API
-
-✔️ Integração com GitHub
-
-✔️ Hospedagem do servidor Node.js
-
-✔️ Disponibilização pública da API RESTful
-
 ---
 
 # 📖 SOBRE O PROJETO
