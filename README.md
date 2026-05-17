@@ -1,10 +1,7 @@
 🚀 CADASTRO DE USUÁRIOS
-
-
 APLICAÇÃO FULL STACK PARA GERENCIAMENTO DE USUÁRIOS
-
 🌐 DEPLOY DA APLICAÇÃO
-https://frontend-cadastro-usuarios.vercel.app
+🔗 LINK DO PROJETO
 
 Cadastro de Usuários
 
@@ -13,7 +10,7 @@ Cadastro de Usuários
 Frontend hospedado utilizando:
 
 Vercel
-Funcionalidades do deploy
+FUNCIONALIDADES DO DEPLOY
 
 ✔️ Deploy automático via GitHub
 
@@ -28,7 +25,7 @@ Funcionalidades do deploy
 Backend hospedado utilizando:
 
 Render
-Funcionalidades do deploy
+FUNCIONALIDADES DO DEPLOY
 
 ✔️ Deploy automático da API
 
@@ -38,18 +35,15 @@ Funcionalidades do deploy
 
 ✔️ Disponibilização pública da API RESTful
 
-
-
 📖 SOBRE O PROJETO
 
-O projeto Cadastro de Usuários é uma aplicação Full Stack desenvolvida com foco na integração entre frontend e backend, utilizando tecnologias modernas amplamente utilizadas no mercado.
+O projeto Cadastro de Usuários é uma aplicação Full Stack desenvolvida com foco na integração entre frontend e backend.
 
 A aplicação permite cadastrar usuários através de um formulário, enviar os dados para o banco utilizando uma API RESTful e exibir todos os usuários cadastrados diretamente na interface.
 
 Também é possível remover usuários tanto da interface quanto do banco de dados através da rota DELETE da API.
 
-O projeto foi criado com o objetivo de fortalecer conhecimentos em desenvolvimento backend, integração de APIs e comunicação entre frontend e backend.
-
+O projeto foi desenvolvido com o objetivo de fortalecer conhecimentos em desenvolvimento backend, integração de APIs e comunicação entre frontend e backend.
 
 🎯 OBJETIVOS DO PROJETO
 Desenvolver uma aplicação Full Stack
@@ -60,12 +54,9 @@ Trabalhar com gerenciamento de estado
 Utilizar tipagem estática com TypeScript
 Praticar integração com banco de dados NoSQL
 Simular estrutura utilizada em aplicações reais
-
-
 ✨ FUNCIONALIDADES
-
 👤 GERENCIAMENTO DE USUÁRIOS
-Funcionalidades implementadas
+FUNCIONALIDADES IMPLEMENTADAS
 
 ✔️ Cadastro de usuários
 
@@ -84,7 +75,7 @@ Funcionalidades implementadas
 Validação implementada utilizando:
 
 Zod
-Regras aplicadas
+REGRAS APLICADAS
 
 ✔️ Nome obrigatório
 
@@ -99,7 +90,7 @@ Regras aplicadas
 Sistema de notificações implementado utilizando:
 
 React Hot Toast
-Funcionalidades das notificações
+FUNCIONALIDADES DAS NOTIFICAÇÕES
 
 ✔️ Usuário cadastrado com sucesso
 
@@ -110,8 +101,6 @@ Funcionalidades das notificações
 ✔️ Feedback visual para ações da aplicação
 
 🛠️ TECNOLOGIAS UTILIZADAS
-
-
 ⚛️ FRONTEND
 React
 TypeScript
@@ -119,20 +108,14 @@ Tailwind CSS
 React Hook Form
 Zod
 React Hot Toast
-
-
 ⚙️ BACKEND
 Node.js
 Express
 JavaScript
-
-
 Zod
 🗄️ BANCO DE DADOS & ORM
 MongoDB
 Prisma
-
-
 📡 FUNCIONAMENTO DA APLICAÇÃO
 ➕ CADASTRO DE USUÁRIOS
 
@@ -141,8 +124,7 @@ O usuário preenche o formulário com:
 Nome
 Email
 Idade
-
-Após o envio:
+APÓS O ENVIO
 
 ✔️ Os dados são validados
 
@@ -162,7 +144,7 @@ Os usuários são renderizados dinamicamente na interface através do React.
 
 A aplicação permite deletar usuários diretamente pela interface.
 
-Ao deletar:
+AO DELETAR
 
 ✔️ A rota DELETE da API é acionada
 
@@ -173,7 +155,7 @@ Ao deletar:
 ✔️ Uma notificação de sucesso é exibida
 
 📁 ESTRUTURA DO PROJETO
-FRONTEND
+⚛️ FRONTEND
 src/
 │
 ├── components/
@@ -189,7 +171,7 @@ src/
 ├── App.tsx
 │
 └── main.tsx
-BACKEND
+⚙️ BACKEND
 src/
 │
 ├── controllers/
@@ -207,9 +189,9 @@ src/
 └── server.js
 ▶️ COMO EXECUTAR O PROJETO
 1️⃣ INSTALAR DEPENDÊNCIAS
-Frontend
+FRONTEND
 npm install
-Backend
+BACKEND
 npm install
 2️⃣ CONFIGURAR VARIÁVEIS DE AMBIENTE
 
@@ -218,9 +200,9 @@ Crie um arquivo .env no backend:
 DATABASE_URL="sua_string_do_mongodb"
 PORT=3000
 3️⃣ EXECUTAR O PROJETO
-Frontend
+FRONTEND
 npm run dev
-Backend
+BACKEND
 npm run dev
 📈 FUNCIONALIDADES IMPLEMENTADAS
 
@@ -263,14 +245,22 @@ Dockerização da aplicação
 
 Este projeto foi desenvolvido como forma de fixação dos conhecimentos adquiridos em desenvolvimento backend e integração Full Stack.
 
-A aplicação demonstra conceitos importantes utilizados em aplicações reais, incluindo:
+🧠 CONCEITOS DEMONSTRADOS
 
-Comunicação entre frontend e backend
-Consumo de API RESTful
-Validação de dados
-Integração com banco NoSQL
-Organização escalável de código
-Desenvolvimento tipado com TypeScript
-Estrutura modular
-Gerenciamento de formulários
-Feedback visual para o usuário
+✔️ Comunicação entre frontend e backend
+
+✔️ Consumo de API RESTful
+
+✔️ Validação de dados
+
+✔️ Integração com banco NoSQL
+
+✔️ Organização escalável de código
+
+✔️ Desenvolvimento tipado com TypeScript
+
+✔️ Estrutura modular
+
+✔️ Gerenciamento de formulários
+
+✔️ Feedback visual para o usuário
