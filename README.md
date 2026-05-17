@@ -6,21 +6,15 @@
 
 # 🌐 DEPLOY DA APLICAÇÃO
 
----
-
 ## 🔗 LINK DO PROJETO
 
 https://frontend-cadastro-usuarios.vercel.app/
-
----
 
 ## ⚛️ FRONTEND
 
 Frontend hospedado utilizando:
 
 * Vercel
-
----
 
 ### FUNCIONALIDADES DO DEPLOY
 
@@ -32,15 +26,11 @@ Frontend hospedado utilizando:
 
 ✔️ Ambiente otimizado para frontend
 
----
-
 ## ⚙️ BACKEND
 
 Backend hospedado utilizando:
 
 * Render
-
----
 
 ### FUNCIONALIDADES DO DEPLOY
 
@@ -92,8 +82,6 @@ O projeto foi desenvolvido com o objetivo de fortalecer conhecimentos em desenvo
 
 # ✨ FUNCIONALIDADES
 
----
-
 ## 👤 GERENCIAMENTO DE USUÁRIOS
 
 ✔️ Cadastro de usuários
@@ -108,15 +96,11 @@ O projeto foi desenvolvido com o objetivo de fortalecer conhecimentos em desenvo
 
 ✔️ Comunicação com API RESTful
 
----
-
 ## ✅ VALIDAÇÃO DE DADOS
 
 Validação implementada utilizando:
 
 * Zod
-
----
 
 ### REGRAS APLICADAS
 
@@ -128,15 +112,11 @@ Validação implementada utilizando:
 
 ✔️ Validação de tipo numérico
 
----
-
 ## 🔔 NOTIFICAÇÕES
 
 Sistema de notificações implementado utilizando:
 
 * React Hot Toast
-
----
 
 ### FUNCIONALIDADES DAS NOTIFICAÇÕES
 
@@ -152,8 +132,6 @@ Sistema de notificações implementado utilizando:
 
 # 🛠️ TECNOLOGIAS UTILIZADAS
 
----
-
 ## ⚛️ FRONTEND
 
 * React
@@ -168,8 +146,6 @@ Sistema de notificações implementado utilizando:
 
 * React Hot Toast
 
----
-
 ## ⚙️ BACKEND
 
 * Node.js
@@ -179,8 +155,6 @@ Sistema de notificações implementado utilizando:
 * JavaScript
 
 * Zod
-
----
 
 ## 🗄️ BANCO DE DADOS & ORM
 
@@ -192,8 +166,6 @@ Sistema de notificações implementado utilizando:
 
 # 📡 FUNCIONAMENTO DA APLICAÇÃO
 
----
-
 ## ➕ CADASTRO DE USUÁRIOS
 
 O usuário preenche o formulário com:
@@ -203,8 +175,6 @@ O usuário preenche o formulário com:
 * Email
 
 * Idade
-
----
 
 ### APÓS O ENVIO
 
@@ -216,21 +186,15 @@ O usuário preenche o formulário com:
 
 ✔️ O usuário aparece automaticamente na interface
 
----
-
 ## 📄 LISTAGEM DE USUÁRIOS
 
 A aplicação realiza uma requisição GET para buscar todos os usuários cadastrados.
 
 Os usuários são renderizados dinamicamente na interface através do React.
 
----
-
 ## ❌ REMOÇÃO DE USUÁRIOS
 
 A aplicação permite deletar usuários diretamente pela interface.
-
----
 
 ### AO DELETAR
 
@@ -246,55 +210,35 @@ A aplicação permite deletar usuários diretamente pela interface.
 
 # 📁 ESTRUTURA DO PROJETO
 
----
-
 ## ⚛️ FRONTEND
 
 ```bash
 src/
-
 ├── components/
-
 ├── pages/
-
 ├── services/
-
 ├── types/
-
 ├── schemas/
-
 ├── App.tsx
-
 └── main.tsx
 ```
-
----
 
 ## ⚙️ BACKEND
 
 ```bash
 src/
-
 ├── controllers/
-
 ├── services/
-
 ├── routes/
-
 ├── schemas/
-
 ├── config/
-
 ├── app.js
-
 └── server.js
 ```
 
 ---
 
 # ▶️ COMO EXECUTAR O PROJETO
-
----
 
 ## 1️⃣ INSTALAR DEPENDÊNCIAS
 
@@ -304,15 +248,11 @@ src/
 npm install
 ```
 
----
-
 ### BACKEND
 
 ```bash
 npm install
 ```
-
----
 
 ## 2️⃣ CONFIGURAR VARIÁVEIS DE AMBIENTE
 
@@ -320,11 +260,8 @@ Crie um arquivo `.env` no backend:
 
 ```env
 DATABASE_URL="sua_string_do_mongodb"
-
 PORT=3000
 ```
-
----
 
 ## 3️⃣ EXECUTAR O PROJETO
 
@@ -333,8 +270,6 @@ PORT=3000
 ```bash
 npm run dev
 ```
-
----
 
 ### BACKEND
 
@@ -397,8 +332,6 @@ npm run dev
 # 💡 OBJETIVO DO PROJETO
 
 Este projeto foi desenvolvido como forma de fixação dos conhecimentos adquiridos em desenvolvimento backend e integração Full Stack.
-
----
 
 # 🧠 CONCEITOS DEMONSTRADOS
 
