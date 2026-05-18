@@ -46,7 +46,7 @@ export default function Users() {
         <div>
             {loading ? (
                 <p className="mt-8 text-2xl text-white">Carregando usuários...</p>
-            ) : (
+            ) : users.length === 0 ? (<p className="mt-8 text-2xl text-white">Nenhum usuário cadastrado</p>) : (
                 <div>
                     {users.length !== 0 && (
                         <div className="w-full max-w-lg grid grid-cols-2  gap-8 mt-10">
